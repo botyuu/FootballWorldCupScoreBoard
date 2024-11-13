@@ -1,11 +1,10 @@
 import lombok.Getter;
-
+@Getter
 public class Game {
     private final String homeTeam;
     private final String awayTeam;
     private int homeScore = 0;
     private int awayScore = 0;
-    @Getter
     private long lastUpdated;
 
     public Game(String homeTeam, String awayTeam, long lastUpdated) {
