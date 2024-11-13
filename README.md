@@ -6,7 +6,7 @@ It allows users to:
 - Update scores
 - Finish matches
 - View match results
-- 
+  
 ## Requirements
 - Java 21
 
